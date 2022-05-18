@@ -1,0 +1,16 @@
+#factorial by recursion 
+def fact(s):
+    if s == 1:
+        return 1
+    else:
+        return( s*fact(s-1))
+    
+    
+#factorial by itteration     
+def factorial():
+    y=int(input("enter the value of number where you want to print:"))
+    x=list (range(1,y))
+    j=1
+    for i in x :
+        j=j*i
+        print(j)
